@@ -1,0 +1,182 @@
+body {
+    background-color: #F4F4F4
+}
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url('/images/banner.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.epilogue>h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+.epilogue1>p {
+    color: white;
+    border-top: white solid 1px;
+    padding-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+/* fin header */
+
+/* début first */
+.first {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.first>.magna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first>.magna>p {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.first>.magna>button {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+/* fin first */
+
+/* début image + texte + button */
+.feugiatblandit {
+    display: flex;
+}
+.feugiatblandit1 {
+    width: 50%;
+    text-align: center;
+}
+.feugiatblandit1>img {
+    padding-top: 30px;
+}
+.feugiatblandit1>p {
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.feugiatblandit1>button {
+padding: 10px;
+margin: 30px;
+font-family: 'Poppins', sans-serif;
+}
+.feugiatblandit2 {
+    width: 50%;
+    text-align: center;
+}
+.feugiatblandit2>img {
+    padding-top: 30px;
+}
+.feugiatblandit2>p {
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.feugiatblandit2>button {
+padding: 10px;
+margin: 30px;
+font-family: 'Poppins', sans-serif;
+}
+.loremipsum {
+    display: flex;
+}
+.loremipsum1 {
+    width: 50%;
+    text-align: center;
+}
+.loremipsum1>img {
+    padding-top: 30px;
+}
+.loremipsum1>p {
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.loremipsum1>button {
+padding: 10px;
+margin: 30px;
+font-family: 'Poppins', sans-serif;
+}
+.loremipsum2 {
+    width: 50%;
+    text-align: center;
+}
+.loremipsum2>img {
+    padding-top: 30px;
+}
+.loremipsum2>p {
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.loremipsum2>button {
+padding: 10px;
+margin: 30px;
+font-family: 'Poppins', sans-serif;
+}
+/* fin image + texte+ button */
+
+/* début etiamveroeros */
+.etiam_veroeros {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.etiam_veroeros>.etiam_veroeros1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.etiam_veroeros>.etiam_veroeros1>p {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.etiam_veroeros>.etiam_veroeros1>button {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+/* fin etiamveroeros */
+
+/* début footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+footer>.footer_icon {
+    padding: 30px;
+}
+footer>.footer_icon>i {
+    margin: 10px;
+}
+footer>.footer_text {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
